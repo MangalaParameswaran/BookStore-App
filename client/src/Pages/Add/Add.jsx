@@ -73,7 +73,7 @@ const Add = () => {
         <section>
           <div className="container add-book">
             <hr/>
-            <h1 className="my-5">Add New Book</h1>
+            <h1 className="my-5">Add New <i className="fa-solid fa-book"></i> &nbsp; Book</h1>
             <hr/>
             <div className="row my-5">
               <div className="borders col-11 mx-auto col-md-10 col-sm-10 col-lg-9 col-xl-9">
