@@ -69,7 +69,7 @@ export const Read = () => {
                             <h4 className='text-success'><span className='mt-2'>Author:</span> {Books.BookAuthor}</h4>
                             <p className='text-secondary fs-6'><span className='mt-2 fs-4'>Description: </span>{Books.BookDesc}</p>
                             <p className='text-secondary'><span className='mt-2 fs-4'>Introduction: </span>{Books.BookIntro}</p>
-                            <p className='text-secondary'><span className='mt-2 fs-4'>Published Year: </span>{Books.BookPublishYear}</p>
+                            <p className='text-secondary'><span className='mt-2 fs-4'>Published Year: </span><b>{Books.BookPublishYear}</b></p>
                         </div>
                     </div>
                 </div>
