@@ -21,7 +21,7 @@ const Edit = () => {
 
     const UpdateBook=async()=>{
        try {
-        if(!BookImg_Url){
+        if(!BookImg_Url || !BookAuthor || !BookDesc || !BookIntro || !BookPublishYear || !BookTitle){
           enqueueSnackbar("image field is required", { variant: "error" });
         return;
         }
