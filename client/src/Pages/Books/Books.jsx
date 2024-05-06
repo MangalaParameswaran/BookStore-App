@@ -43,7 +43,7 @@ const Books = () => {
               >
                 <div className="card bg-light" style={{ width: "18rem" }}>
                   <img
-                    src={`http://localhost:8000/uploads/${e.BookImg_Url}`}
+                    src={`https://bookstore-app-3vkr.onrender.com/uploads/${e.BookImg_Url}`}
                     height='250'
                     width='100'
                     alt={e.BookTitle}
