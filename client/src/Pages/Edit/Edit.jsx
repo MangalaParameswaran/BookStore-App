@@ -104,6 +104,7 @@ const Edit = () => {
                 <div className="mb-4">
                   <input
                     type="text"
+                    required
                     className="form-control text-light"
                     aria-describedby="emailHelp"
                     placeholder="Book title"
@@ -113,6 +114,7 @@ const Edit = () => {
                 <div className="mb-4">
                   <input
                     type="file"
+                    required
                     className="form-control text-light"
                     aria-describedby="emailHelp"
                     placeholder="Image"
@@ -123,6 +125,7 @@ const Edit = () => {
                 <div className="mb-3">
                   <input
                     type="text"
+                    required
                     className="form-control text-light"
                     aria-describedby="emailHelp"
                     placeholder="Author Name"
@@ -132,6 +135,7 @@ const Edit = () => {
                 <div className="form-floating mb-3">
                   <textarea
                     className="form-control  text-light"
+                    required
                     placeholder="Leave a Introdution here"
                     id="floatingTextarea2"
                     style={{height: "100px"}}
@@ -142,6 +146,7 @@ const Edit = () => {
                 <div className="form-floating mb-3">
                   <textarea
                     className="form-control  text-light"
+                    required
                     id="floatingTextarea2"
                     placeholder="Leave a Introdution here"
                     style={{height: "100px"}}
@@ -152,6 +157,7 @@ const Edit = () => {
                 <div className="mb-3">
                   <input
                     type="number"
+                    required
                     className="form-control"
                     aria-describedby="emailHelp"
                     placeholder="Year"
