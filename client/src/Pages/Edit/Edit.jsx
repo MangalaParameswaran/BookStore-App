@@ -39,7 +39,7 @@ const Edit = () => {
         //     BookTitle, BookAuthor, BookImg_Url,BookIntro, BookDesc, BookPublishYear
         // }
 
-       let res=await axios.put(`http://localhost:8000/book/update/${id}`,  formData, {
+       let res=await axios.put(`https://bookstore-app-3vkr.onrender.com/book/update/${id}`,  formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
