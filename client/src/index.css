@@ -61,6 +61,7 @@ body{
   position: sticky;
   top: 0;
   z-index: 1;
+  box-shadow: 2px 2px 24px blueviolet;
 }
 .nav-item::after{
   content: '' ;
@@ -492,4 +493,8 @@ button{
   syntax: "<angle>";
   inherits: true;
   initial-value: 0turn;
+}
+/* Footer */
+.footer footer{
+  padding-top: 2em;
 }
