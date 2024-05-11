@@ -165,7 +165,7 @@ const Edit = () => {
                   />
                 </div>
                 <div className="button my-5">
-                <button type="button" className="btn btn-primary w-25 fw-bold fs-5"  onClick={UpdateBook} >Update Book</button>
+                <button type="button" className="btn btn-primary w-75 fw-bold fs-5"  onClick={UpdateBook} >Update Book</button>
                 </div>
               </form>
             </div>

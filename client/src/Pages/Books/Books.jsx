@@ -5,7 +5,7 @@ import Spinner from "../../Components/Spinner/Spinner.jsx";
 
 const Books = () => {
   const [books, setBooks] = useState([]);
-  console.log(books);
+  // console.log(books);
   const [Loading, setLoading] = useState(false);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const Books = () => {
     axios
       .get("https://bookstore-app-3vkr.onrender.com/book/get-book")
       .then((res) => {
-        console.log(res.data.books);
+        // console.log(res.data.books);
         setBooks(res.data.books);
         setLoading(false);
       })

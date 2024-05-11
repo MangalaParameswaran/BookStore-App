@@ -11,7 +11,7 @@ export const Read = () => {
 
     const [Loading, setLoading]=useState(false)
     const [Books, setBooks]=useState([])
-    console.log(Books);
+    // console.log(Books);
     const {id}=useParams()
     const navigate=useNavigate()
 
